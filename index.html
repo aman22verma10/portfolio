@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height">
+        <title>Portfolio Website</title>
+        <link rel="stylesheet" href="https://assets.myoasis.tech/icons/font-awesome-6/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        
+    </head>
+    <body>
+        <header class="header">
+            <a href="#" class="logo">Aman Portfolio </a>
+
+            <i class="fa-sharp fa-solid fa-bars" id="menu-icon"></i>
+            <nav class="navbar">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+
+        <!-- home section design -->
+        <section class="home" id="home">
+            <div class="home-content">
+                <h3>Hello, It's Me</h3>
+                <h1>AMAN KUMAR VERMA</h1>
+                <h3>And I'm a <span class="multiple-text"></span></h3>
+        <p>"Hello! I'm AMAN KUMAR VERMA, a passionate and skilled Data Scientist and Web developer.
+        I thrive on turning ideas into innovative and user-friendly web applications.    </p>
+
+                 <div class="social-media">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/aman22verma10"target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/amanverma22/"target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/aman_verma.2210/"target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                   
+                 </div>
+
+         
+                 <a href="images/Aman C.V.pdf" download>
+                  <button class="btn">
+                    <i class="fa-solid fa-download"></i>Download C.V
+                  </button>
+                </a>
+         <a href="https://github.com/aman22verma10" class="btn"><i class="fa-brands fa-github"></i> Visit GitHub</a>
+                
+               
+            </div>
+            
+            <div class="home-img">
+                <img src="/Users/amanverma/Downloads/pp.png" alt=""
+                width="800" height="460">
+
+            </div>
+
+            </div>
+        </section>
+
+        <!--about section design -->
+
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="images/home1.png" alt="">
+            </div>
+            <div class="about-content">
+                <h2 class="heading">About  <span style="color:rgb(19, 223, 226)">Me</span>
+                <h3>Data Scientist</h3>
+                <p>
+                  This is my portfolio website. My name is Aman Kumar Verma and I specialize in data science and back-end technologies. 
+                  Moreover, I am well-versed in various programming languages including Java, C++, and Python. Additionally, 
+                  I possess a strong understanding of data science. My expertise lies in transforming ideas into captivating digital experiences. Furthermore,
+                   I have a sound knowledge of UI/UX.
+              
+              
+                 <span id="dots">...</span>
+                 <span id="more">
+                    <span style="color:white"> 
+
+                      As an web developer, I possess strong expertise in mob website development and am passionate about my work.
+                       My proficiency in Java, Kotlin, and other relevant technologies enables me to create innovative solutions while thriving 
+                       in a dynamic and collaborative environment.
+                      </span>
+                 </span>
+
+         
+                </p>
+
+               <button onclick="myFunction()" class="btn" id="btn">Read more</button>
+               
+            </div>
+        </section>
+
+        <!-- service section Design -->
+
+        <section class="services" id="services">
+            <h2 class="heading">Our <span style="color:rgb(19, 223, 226)">Services</span></h2>
+            <div class="services-container">
+            <div class="services-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Development</h3>
+                <p> 
+               I specialize in developing customized web applications tailored to meet your specific business requirements.
+              From e-commerce platforms to content management systems, I deliver scalable and feature-rich solutions that enhance your online presence.
+              With a strong foundation in coding languages and a keen eye for design, i have been instrumental in bringing countless websites to life.
+            
+            </p>
+            
+            <button onclick="myFunction()" class="btn" id="btn">Read more</button>
+
+            </div>
+            <div class="services-box">
+                <i class="fa-brands fa-android"></i>
+                <h3>Web Development</h3>
+                <p> 
+                    Welcome to the portfolio website of Aman Kumar Verma, an accomplished Web developer with a passion for crafting innovative mobile experiences.<br>
+                     With a strong background in computer science and a deep understanding of the Web platform, John has been instrumental in creating user-friendly and cutting-edge mobile applications.
+                
+              </p>
+              <a href="#" class="btn">Read More</a>
+   
+            </div>
+
+            <div class="services-box">
+                <i class="fa-solid fa-chart-simple"></i>
+                <h3>Digital Marketing</h3>
+                <p> 
+                    Welcome to the portfolio website of Aman Kumar Verma, a dynamic and results-driven digital marketing professional with a passion for driving online success.<br>
+                     With a deep understanding of the ever-evolving digital landscape, Jane has proven expertise in crafting strategic marketing campaigns that generate tangible business growth.
+
+
+              </p>
+              <a href="#" class="btn">Read More</a>
+            </div>
+            </div>
+        </section>
+
+        <!--Portfolio section design-->
+        <section class="portfolio" id="portfolio">
+            <h2 class="heading">Latest <span style="color:rgb(19, 223, 226)">Projects</span></h2>
+
+            <div class="portfolio-container">
+
+                <div class="portfolio-box">
+                    <img src="images/weather.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Weather App</h4>
+                        <p>Made a Weather app using java and kotin that uses API to show data</p>
+                          
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                    <div class="portfolio-box">
+                        <img src="images/bank.jpg" alt="">
+                        <div class="portfolio-layer">
+                            <h4>Bank Management</h4>
+                     <p>Made Bank management application using java </p>
+                              
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                        <div class="portfolio-box">
+                            <img src="images/E commerce.jpg" alt="">
+                            <div class="portfolio-layer">
+                                <h4>E-commerce website</h4>
+                                <p>Made full stack E-commerce website that uses html css javascript as fronted and php MySQL as backend.</p>
+                                  
+                                <a href="https://tanishkcse1.netlify.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                            </div>
+
+                            <div class="portfolio-box">
+                                <img src="images/game.jpg" alt="">
+                                <div class="portfolio-layer">
+                                    <h4> Game</h4>
+                                    <p>Made Snake game that has Graphical User Interface using Python.</p>
+                                      
+                                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                </div>
+                            </div>
+
+                                <div class="portfolio-box">
+                                    <img src="images/Trading.jpg" alt="">
+                                    <div class="portfolio-layer">
+                                        <h4>Trading App</h4>
+                                        <p>Made Trading app using react native that it uses data analysis to analysis weather data.</p>
+                                          
+                                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                    </div>
+                                    </div>
+
+
+                                    <div class="portfolio-box">
+                                        <img src="images/music .jpg" alt="">
+                                        <div class="portfolio-layer">
+                                            <h4>Spotify Clone</h4>
+                                            <p>Made Spotify Clone using html css javascript and in backend it uses django.js useing spotify API.</p>
+                                              
+                                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                        </div>                     
+                </div>
+            </div>
+        </section>
+
+        <!-- skill and tools section -->
+        <section class="Skills" id="Skills">
+   <div class="skills-section">
+    <div class="skills-header">
+     <h2 class="heading">Skills & Tools</h2>   
+     </div>
+     <div class="skills-container">
+      <div class="skills-box">
+         <div class="skills-title">
+         <div class="skills-img">
+          <img src="https://cdn.freebiesupply.com/logos/large/2x/android-logo-png-transparent.png" alt="" class="skills-icons">
+          </div>
+           <h3>Website Development</h3>
+          </div>
+         
+         </div>
+        
+      <div class="skills-box">
+       <div class="skills-title">
+       <div class="skills-img">
+        <img src="https://cdn.freebiesupply.com/logos/large/2x/html-5-logo-png-transparent.png"     alt="" class="skills-icons">
+        </div>
+         <h3>HTML 5</h3>
+        </div>
+       
+       </div>
+       
+       
+        <div class="skills-box">
+       <div class="skills-title">
+       <div class="skills-img">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/CSS.3.svg" alt="" class="skills-icons">
+        </div>
+        <h3>CSS3</h3>
+        </div>
+          
+       </div>
+       
+       
+        <div class="skills-box">
+       <div class="skills-title">
+       <div class="skills-img">
+        <img src="https://icon-library.net/images/javascript-icon-png/javascript-icon-png-23.jpg" alt="" class="skills-icons">
+        </div>
+        <h3>JAVASCRIPT</h3>
+        </div>
+       
+       </div>
+       
+          <div class="skills-box">
+       <div class="skills-title">
+       <div class="skills-img">
+        <img src="http://pluspng.com/img-png/nodejs-logo-png-nice-images-collection-node-js-desktop-wallpapers-370.png" alt="" class="skills-icons">
+        </div>
+        <h3>NODE.JS</h3>
+        </div>
+       
+       </div>
+
+       <div class="skills-box">
+         <div class="skills-title">
+         <div class="skills-img">
+          <img src="https://cdn.freebiesupply.com/logos/large/2x/java-logo-png-transparent.png" alt=" " class="skills-icons">
+          </div>
+          <h3>JAVA</h3>
+          </div>
+                
+         </div>
+       
+         <div class="skills-box">
+       <div class="skills-title">
+       <div class="skills-img">
+        <img src="https://mildaintrainings.com/wp-content/uploads/2017/11/react-logo.png" alt="" class="skills-icons">
+        </div>
+        <h3>REACT</h3>
+        </div>
+       
+       </div>
+
+
+       <div class="skills-box">
+        <div class="skills-title">
+        <div class="skills-img">
+         <img src="https://cdn.freebiesupply.com/logos/large/2x/python-logo-png-transparent.png" alt="" class="skills-icons">
+         </div>
+         <h3>PYTHON</h3>
+         </div>
+        
+        </div>
+
+<div class="skills-box">
+            <div class="skills-title">
+            <div class="skills-img">
+             <img src="https://cdn.freebiesupply.com/logos/large/2x/mysql-logo-png-transparent.png" alt=""  class="skills-icons">
+             </div>
+             <h3>MySQL</h3>
+             </div>
+        
+            </div>
+
+
+       
+    <div class="skills-box">
+   <div class="skills-title">
+   <div class="skills-img">
+  <img src="https://cdn.freebiesupply.com/logos/large/2x/c-logo-png-transparent.png " alt="" class="skills-icons">
+        </div>
+        <h3>C++</h3>
+        </div>
+       
+       </div>
+       
+       </div>
+     </div>
+
+   
+
+     <!-- tools-->
+
+
+<div class="tools" >
+    
+     <div class="container h-100">
+      <div class="row align-items-center h-100">
+        <div class="container rounded">
+          <h2 class="heading"> <span style="color:rgb(27, 25, 25)">Tool's i use</span></h2>
+          <div class="slider">
+            <div class="logos">
+             <i class="fab fa fa-gitlab fa-4x"></i>
+             <i class="fab fa fa-wordpress fa-4x"></i>
+              <i class="fab fa-dribbble fa-4x"></i>
+              <i class="fab fa fa-android fa-4x"></i>
+
+              <i class="fab fa-github fa-4x"></i>
+            </div>
+            <div class="logos">
+              <i class="fab fa fa-gitlab fa-4x"></i>
+              <i class="fab fa fa-wordpress fa-4x"></i>
+              <i class="fab fa-dribbble fa-4x"></i>
+              <i class="fab fa fa-android fa-4x"></i>
+             
+              <i class="fab fa-github fa-4x"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    </div><div class="container h-100">
+      <div class="row align-items-center h-100">
+        <div class="container rounded">
+         
+          <div class="slider">
+            <div class="logos">
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    </div>
+    
+  
+  
+</div>
+
+
+        </section>
+        <!--contact section-->
+
+        <section class="contact" id="contact">
+          <h2 class="heading">Contact <span style="color:rgb(19, 223, 226)">Me</span>
+
+          <form name="contact" netlify>
+            <div class="input-box">
+            <input type="text" name="Name"  placeholder="Full Name" required>
+            <input type="number" name="Phone no" placeholder="Phone No" required>
+            <input type="text" name="Subject" placeholder="Subject" required>
+            <input type="email"name="Email" placeholder="Email Address" required>
+            </div>
+
+                <textarea name="Message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn ">
+        </div>
+          </form>
+
+          <span id="msg"></span>
+
+        </section>
+
+        <!--footer design-->
+
+        <footer class="footer">
+            <div class="footer-text">
+                <p>Copyright &copy;  AMAN KUMAR VERMA | All Rights Reserved. </p>
+            </div>
+            
+            <div class="footer-iconTop">
+                <a href="#home"><i class="fa-solid fa-arrow-up"></i></a>
+            </div>
+        </footer>
+
+         <!--scroll reveal-->
+         <script src="https://unpkg.com/scrollreveal"></script>
+
+
+          <!--typed js-->
+
+          <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+        <script src="script.js"></script>
+
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbzAJZS8VtrCpPBJvRIT9bR1cc3754Gd6_wYdgw6dUIHtBQ2hyY1fc_p3ofMFPhH-BT9Xg/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg= document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response =>{
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+
+          <script>
+            function myFunction() {
+              var dots = document.getElementById("dots");
+              var moreText = document.getElementById("more");
+              var btnText = document.getElementById("btn");
+            
+              if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Read more"; 
+                moreText.style.display = "none";
+              } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Read less"; 
+                moreText.style.display = "inline";
+              }
+            }
+            </script>  
+    </body>
+</html>
